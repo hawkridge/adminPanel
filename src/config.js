@@ -24,7 +24,7 @@ export const tabs = {
             return value;
         },
         reverse: false,
-        sorter: (a, b) => this.reverse ? (b.price - a.price) : (a.price - b.price)
+        // sorter: (a, b) => this.reverse ? (b.price - a.price) : (a.price - b.price)
     },
     quantity: {
         title: "Quantity",
